@@ -17,7 +17,6 @@ class Home extends Component {
           <Writer></Writer>
         </HomeWrapper>
         {scrolltype ? <BackTop onClick={handleScrollTop}>回到顶部</BackTop> : null}
-
       </div>
     )
   };
